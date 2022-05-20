@@ -1,0 +1,45 @@
+.navbar-brand {
+    color: black;
+    padding: 10px 20px;
+    background: red;
+}
+
+.navbar-brand:hover {
+    transition: 1s;
+    color: white;
+    padding: 20px 25px;
+    background: red;
+}
+
+.nav-link {
+    margin-right: 15px;
+    letter-spacing: 0.5px;
+    text-decoration: underline;
+    padding: 10px;
+    color: black;
+}
+
+ul li:hover {
+    background: black;
+    transition: 1s;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+
+ul li .nav-link:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-light .navbar-nav .nav-link :hover {
+    color: white;
+}

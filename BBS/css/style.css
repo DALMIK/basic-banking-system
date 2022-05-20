@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Squada+One');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(7, 65, 255);
+    margin: 0px;
+}
+
+.intro {
+    background: rgba(255, 255, 255, 0.932);
+    height: 70vh;
+}
+
+.heading {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#aaa,
+#aaaa,
+#aaaaa {
+    color: white;
+    font-family: 'Candal', sans-serif;
+    font-variant: normal;
+    font-size: 350%;
+    margin: 0 auto;
+}
+
+#aaa {
+    color: rgb(248, 9, 9);
+}
+
+#aaaa {
+    color: rgb(248, 9, 9);
+}
+
+#aaaaa {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 19px;
+    font-weight: bolder
+}
+
+footer {
+    color: white;
+    margin: 0px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 15px;
+}
+
+@media(max-width: 600px) {
+    #aaa {
+        font-size: 40px;
+    }
+    #aaaa {
+        font-size: 40px;
+    }
+    #aaaaa {
+        font-size: 15px;
+    }
+    .heading {
+        width: 200px;
+        margin: 0 auto;
+    }
+}
